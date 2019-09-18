@@ -32,6 +32,8 @@ namespace TailSpin.SpaceGame.Web.Controllers
             string region = ""
             )
         {
+
+            var password = "mysecret";
             // Create the view model with initial values we already know.
             var vm = new LeaderboardViewModel
             {
